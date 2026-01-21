@@ -13,7 +13,7 @@ export default defineConfig({
     pluginModuleFederation({
       name: 'host',
       remotes: {
-        child: 'child@http://localhost:3001/mf-manifest.json',
+        child: 'child@https://mfe-child-sin9k.web.app/mf-manifest.json',
       },
     }),
   ],
