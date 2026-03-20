@@ -1,4 +1,4 @@
-import ChildComponent from 'child/ChildComponent';
+import { ChildComponent } from 'child/ChildComponent';
 
 import './App.css';
 
@@ -9,7 +9,7 @@ const App = () => {
         <div className="host-badge">HOST</div>
         <h1>Micro-Frontend Demo</h1>
         <p>This is the host application orchestrating remote modules</p>
-        
+
         <ChildComponent />
       </div>
     </div>
